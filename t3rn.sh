@@ -19,7 +19,7 @@ echo "Установка обновления пакетов..."
 sudo apt update && sudo apt upgrade -y
 
 echo "Загрузка исполняемого файла..."
-wget https://github.com/t3rn/executor-release/releases/download/v0.21.9/executor-linux-v0.21.9.tar.gz -O executor-linux.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.22.0/executor-linux-v0.22.0.tar.gz -O executor-linux.tar.gz
 
 echo "Распаковка архива с нодой T3rn..."
 tar -xzvf executor-linux.tar.gz
